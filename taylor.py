@@ -29,3 +29,11 @@ plt.legend()
 plt.grid(True)
 plt.show()
 print(f"Aproximação de Taylor = {y}")
+
+# 4.4.3 Exercícios de Fixação
+# 1. Obtenha as expansões de Taylor em 𝑥 = 0
+# para a função sen(𝑥) e cos(𝑥).
+
+# 2. Obtenha um código Python para a análise as
+# expansões de Taylor do item (1) considerando
+# os termos 𝑛 = 1 até 𝑛 = 5 graficamente.
