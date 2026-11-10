@@ -13,6 +13,7 @@ for i, _x in enumerate(tempo):
     X[i] = np.array([_x, 1])
 
 th = np.linalg.inv(X.transpose().dot(X)).dot(X.transpose().dot(concentracao))
+# th = np.linalg.inv(X.T @ X) @ X.T @ concentracao
 print(th)
 
 a = th[0]
